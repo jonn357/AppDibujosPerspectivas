@@ -12,7 +12,7 @@ VOID OnPaint(HDC hdc)
 {
     Graphics graphics(hdc);
     Pen      pen1(Color(255, 0, 0, 255));
-    graphics.DrawLine(&pen1, 0, 100, 200, 100);
+    graphics.DrawLine(&pen1, 0, 500, 1500, 500);
 }
 
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
